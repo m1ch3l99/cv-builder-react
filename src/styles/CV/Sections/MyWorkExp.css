@@ -1,0 +1,72 @@
+.my__workExp {
+  float: right;
+  width: 65%;
+  padding: 20px;
+}
+
+.my__workExp--title {
+  font-size: 20px;
+  color: #d0ad28;
+  border-bottom: 1px solid #d0ad28;
+  display: flex;
+  padding-bottom: 15px;
+}
+.workExp {
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.workExp__left {
+  padding-top: 15px;
+  text-transform: uppercase;
+  margin-right: 20px;
+  flex: 0.3;
+}
+
+.workExp__right {
+  padding-top: 15px;
+  text-transform: uppercase;
+  flex: 0.7;
+}
+
+.workExp__desc {
+  text-transform: none;
+}
+
+@media screen and (max-width: 990px) {
+  .my__workExp {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .my__workExp {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .my__workExp {
+    float: none;
+    border: none;
+    width: 100%;
+  }
+
+  .workExp__left {
+    flex: 0.4;
+  }
+
+  .workExp__right {
+    flex: 0.6;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .workExp__left {
+    font-size: 12px;
+  }
+
+  .workExp__right {
+    font-size: 12px;
+  }
+}

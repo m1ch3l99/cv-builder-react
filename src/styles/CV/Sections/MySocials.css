@@ -1,0 +1,66 @@
+.my__soc {
+  width: 35%;
+  padding: 20px;
+  border-right: 1px solid black;
+}
+
+.my__soc--title {
+  font-size: 20px;
+  color: #d0ad28;
+  border-bottom: 1px solid #d0ad28;
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.soc__links {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.soc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 1000px) {
+  .soc {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .my__soc {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .soc {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .my__soc {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .my__soc {
+    width: 100%;
+    border: none;
+  }
+  .soc {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .soc {
+    font-size: 16px;
+  }
+}

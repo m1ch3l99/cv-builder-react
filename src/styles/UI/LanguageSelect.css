@@ -1,0 +1,58 @@
+.lang label {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.lang__select {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 17px;
+  border-radius: 5px;
+  border: 2px solid black;
+  font-weight: 400;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 5px black;
+}
+
+.lang__container {
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.lang__container p {
+  margin: 10px;
+  text-transform: capitalize;
+  padding: 5px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease-in;
+}
+
+.lang__container p:hover {
+  box-shadow: 2px 2px 5px black;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.lang__container p > span {
+  margin-right: 5px;
+}
+
+.lang__container::-webkit-scrollbar {
+  height: 5px;
+}
+
+.lang__container::-webkit-scrollbar-thumb {
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .add__lang {
+    width: 40%;
+  }
+}

@@ -1,0 +1,97 @@
+.cv__header {
+  height: 225px;
+  background-color: #1a2223;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cv__self--title {
+  color: white;
+  border: 2px solid #d0ad28;
+  margin-top: 65px;
+  letter-spacing: 2px;
+  font-size: 35px;
+  padding: 5px 10px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.cv__self--profession {
+  position: relative;
+  font-size: 17px;
+  color: white;
+  letter-spacing: 3px;
+  font-weight: 100;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+
+.cv__self--info {
+  color: white;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  width: 100%;
+  font-size: 15px;
+}
+.info__address {
+  text-transform: capitalize;
+}
+.info__mobile,
+.info__email,
+.info__portfolio {
+  margin-right: 20px;
+  padding-right: 20px;
+  border-right: 1px solid white;
+}
+
+@media screen and (max-width: 800px) {
+  .cv__self--title {
+    font-size: 30px;
+  }
+
+  .cv__self--info {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .cv__self--title {
+    margin-top: 20px;
+  }
+
+  .cv__self--info {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .info__mobile,
+  .info__email,
+  .info__portfolio {
+    border-right: none;
+    margin: 0px 0px 10px 0px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cv__self--title {
+    font-size: 24px;
+  }
+
+  .cv__self--profession {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cv__self--title {
+    font-size: 18px;
+  }
+  .cv__self--profession {
+    font-size: 12px;
+  }
+}

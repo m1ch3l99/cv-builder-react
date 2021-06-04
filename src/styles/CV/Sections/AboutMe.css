@@ -1,0 +1,62 @@
+.about__me {
+  width: 35%;
+  height: 200px;
+  padding: 20px;
+  border-right: 1px solid black;
+}
+
+.about__me--title {
+  font-size: 20px;
+  color: #d0ad28;
+  border-bottom: 1px solid #d0ad28;
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.about__me--tags {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tags {
+  flex: 0.5;
+  margin-right: 10px;
+}
+
+.tag {
+  font-weight: 700;
+}
+
+.tag,
+.val {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.values {
+  flex: 0.5;
+}
+
+.fn {
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 990px) {
+  .about__me {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .about__me {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .about__me {
+    width: 100%;
+    border: none;
+  }
+}

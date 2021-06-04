@@ -1,0 +1,75 @@
+.cvPrev {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  overflow-y: scroll;
+  background-color: rgba(0, 0, 0, 0.8);
+  animation: slideIn 0.3s ease-in-out;
+  padding: 50px 50px;
+}
+
+.cvPrev::-webkit-scrollbar {
+  width: 10px;
+}
+
+.fallback {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    top: -100%;
+  }
+
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .fallback {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .fallback {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cvPrev {
+    padding: 50px 20px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .fallback {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .fallback {
+    font-size: 16px;
+  }
+  .cvPrev {
+    padding: 50px 0px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .fallback {
+    font-size: 14px;
+  }
+}

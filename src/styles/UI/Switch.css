@@ -1,0 +1,46 @@
+.switch {
+  padding-right: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.switch__track {
+  background-color: white;
+  height: 20px;
+  width: 50px;
+  margin-left: 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.switch__thumb {
+  background-color: #d0ad28;
+  position: relative;
+  height: 25px;
+  border-radius: 50px;
+  width: 50%;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.switch__thumb--left {
+  transform: translateX(25px);
+  outline: none;
+  background-color: #d0ad28;
+  position: relative;
+  height: 25px;
+  border-radius: 50px;
+  width: 50%;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 860px) {
+  .switch__track {
+    height: 15px;
+  }
+}

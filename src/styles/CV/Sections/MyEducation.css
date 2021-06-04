@@ -1,0 +1,73 @@
+.my__edu {
+  float: right;
+  width: 65%;
+  padding: 20px;
+}
+
+.my__edu--title {
+  font-size: 20px;
+  color: #d0ad28;
+  border-bottom: 1px solid #d0ad28;
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.edu {
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.edu__left {
+  padding-top: 15px;
+  margin-right: 20px;
+  text-transform: uppercase;
+  flex: 0.3;
+}
+
+.edu__right {
+  padding-top: 15px;
+  text-transform: uppercase;
+  flex: 0.7;
+}
+
+.edu__desc {
+  text-transform: none;
+}
+
+@media screen and (max-width: 990px) {
+  .my__edu {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .my__edu {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .my__edu {
+    width: 100%;
+    border: none;
+    float: none;
+  }
+
+  .edu__left {
+    flex: 0.4;
+  }
+
+  .edu__right {
+    flex: 0.6;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .edu__left {
+    font-size: 12px;
+  }
+
+  .edu__right {
+    font-size: 12px;
+  }
+}
