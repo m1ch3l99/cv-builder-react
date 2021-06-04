@@ -11,11 +11,11 @@ Application features:
 - Languages section
 - Social links section
 - Additional section(Edu + Work)
-- Preview section
+- Preview section: 
   The preview section is where the user can see the changes of the informations he enters dynamically
   could be activated with the preview toggle button.
 - Once all the infos are filled the user can download the cv as pdf :)
-- CLean template
+- Clean template
 - Mobile responsive
 
 ## Deployed App
